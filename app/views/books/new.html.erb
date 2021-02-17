@@ -1,4 +1,4 @@
-<h1><%= t('sentence.new_book') %></h1>
+<h1><%= "#{Book.model_name.human}#{t('action.add_object')}"%></h1>
 
 <%= render 'form', book: @book %>
 
