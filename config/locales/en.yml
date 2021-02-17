@@ -43,9 +43,9 @@ en:
         picture: "Picture"
         books: "Books"
   action:
-    add_object: " add"
+    add_object: "Add %{obj}"
     edit: "Edit"
-    edit_object: " edit"
+    edit_object: "Edit %{obj}"
     show: "Show"
     destroy: "Destroy"
     back: "Back"

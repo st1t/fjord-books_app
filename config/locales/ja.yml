@@ -43,9 +43,9 @@ ja:
         picture: "写真"
         books: "書籍一覧"
   action:
-    add_object: "を追加"
+    add_object: "%{obj}を追加"
     edit: "編集"
-    edit_object: "を編集"
+    edit_object: "%{obj}を編集"
     show: "確認"
     destroy: "削除"
     back: "戻る"

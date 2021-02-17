@@ -30,4 +30,4 @@
 
 <br>
 
-<%= link_to "#{Book.model_name.human}#{t('action.add_object')}", new_book_path %>
+<%= link_to t('action.add_object', obj: Book.model_name.human), new_book_path %>

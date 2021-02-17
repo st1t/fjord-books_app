@@ -32,6 +32,6 @@
   </div>
 
   <div class="actions">
-    <%= form.submit "#{Book.model_name.human}#{t('action.add_object')}" %>
+    <%= form.submit t('action.add_object', obj: Book.model_name.human) %>
   </div>
 <% end %>
