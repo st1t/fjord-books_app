@@ -1,9 +1,9 @@
 <h1>ホーム画面</h1>
 
-<%= link_to '書籍一覧', books_url %>
+<%= link_to t('views.common.books'), books_url %>
 <br>
-<%= link_to '自分のユーザー情報を変更', '/users/edit' %>
+<%= link_to t('views.common.change_my_user_information'), '/users/edit' %>
 <br>
-<%= link_to 'ユーザー一覧', users_path %>
+<%= link_to t('views.common.users'), users_path %>
 <br>
-<%= button_to "ログアウト", '/users/sign_out', method: 'delete' %>
+<%= button_to t('views.common.sign_out'), '/users/sign_out', method: 'delete' %>

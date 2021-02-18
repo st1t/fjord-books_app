@@ -4,6 +4,9 @@ class ApplicationController < ActionController::Base
   before_action :authenticate_user!
   # https://github.com/heartcombo/devise/wiki/How-To:-Allow-users-to-sign-in-using-their-username-or-email-address#strong-parameters
   before_action :configure_permitted_parameters, if: :devise_controller?
+  before_action do
+    I18n.locale = :ja
+  end
 
   protected
 
