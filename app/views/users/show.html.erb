@@ -1,0 +1,24 @@
+<h1>Users#index</h1>
+<p>Find me in app/views/users/index.html.erb</p>
+
+<table>
+  <thead>
+  <tr>
+    <th><%= User.human_attribute_name(:email) %></th>
+    <th><%= User.human_attribute_name(:postal_code) %></th>
+    <th><%= User.human_attribute_name(:address) %></th>
+    <th><%= User.human_attribute_name(:self_introduction) %></th>
+  </tr>
+
+  <tbody>
+  <tr>
+    <td><%= @user.email %></td>
+    <td><%= @user.postal_code %></td>
+    <td><%= @user.address %></td>
+    <td><%= @user.self_introduction %></td>
+  </tr>
+  </tbody>
+  </thead>
+</table>
+
+<%= button_to "ログアウト", '/users/sign_out', method: 'delete' %>
