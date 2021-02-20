@@ -1,5 +1,4 @@
-<h1>Users#index</h1>
-<p>Find me in app/views/users/index.html.erb</p>
+<h1><%= t('views.users.user_list') %></h1>
 
 <table>
   <thead>
@@ -18,4 +17,5 @@
 </table>
 
 <%= paginate @users %>
-<%= button_to "ログアウト", '/users/sign_out', method: 'delete' %>
+<%= button_to t('views.common.back'), '/', method: 'get' %>
+<%= button_to t('views.common.sign_out'), '/users/sign_out', method: 'delete' %>

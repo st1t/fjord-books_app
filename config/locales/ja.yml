@@ -225,6 +225,9 @@ ja:
       previous: '前'
       next: '次'
       truncate: '...'
+    users:
+      user_list: ユーザー一覧
+      user_detail: ユーザー詳細
   controllers:
     common:
       notice_create: "%{name}が作成されました。"

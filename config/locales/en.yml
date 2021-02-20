@@ -227,6 +227,9 @@ en:
       users: Users
       sign_out: Logout
       change_my_user_information: Change my user information
+    users:
+      user_list: "User list"
+      user_detail: "User detail"
   controllers:
     common:
       notice_create: "%{name} was successfully created."
