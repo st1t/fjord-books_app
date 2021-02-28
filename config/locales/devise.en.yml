@@ -4,30 +4,13 @@ en:
   devise:
     passwords:
       new:
-        forgot_your_password: "Forgot your password?"
         send_me_reset_password_instructions: "Send me reset password instructions"
     registrations:
-      leave_blank_if_you_dont_want_to_change_it: "(leave blank if you don't want to change it)"
-      characters_minimum: "(%{count}characters minimum)"
-      we_need_your_current_password_to_confirm_your_changes: "(we need your current password to confirm your changes)"
       edit:
-        are_you_sure: "Are you sure?"
-        cancel_my_account: "Cancel my account"
-        update: "Update"
-        unhappy: "Unhappy?"
         back: "Back"
         edit_resource: "Edit %{resource}"
       new:
-        sign_up: "Sign up"
         characters_minimum: "（%{count} characters minimum）"
     sessions:
       new:
         sign_in: "Log in"
-    shared:
-      links:
-        sigh_in: "Sign in"
-        sigh_up: "Sign up"
-        forgot_your_password: "Forgot your password?"
-        didn_t_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
-        didn_t_receive_unlock_instructions: "Didn't receive unlock instructions?"
-        sign_in_with_provider: "Sign in with %{provider}"
