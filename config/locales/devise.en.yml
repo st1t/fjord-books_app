@@ -1,0 +1,16 @@
+# Additional translations at https://github.com/heartcombo/devise/wiki/I18n
+
+en:
+  devise:
+    passwords:
+      new:
+        send_me_reset_password_instructions: "Send me reset password instructions"
+    registrations:
+      edit:
+        back: "Back"
+        edit_resource: "Edit %{resource}"
+      new:
+        characters_minimum: "（%{count} characters minimum）"
+    sessions:
+      new:
+        sign_in: "Log in"

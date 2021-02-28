@@ -1,0 +1,17 @@
+ja:
+  activerecord:
+    attributes:
+      user:
+        address: 住所
+        postal_code: 郵便番号
+        self_introduction: 自己紹介
+  devise:
+    registrations:
+      edit:
+        back: 戻る
+        edit_resource: "%{resource}を編集"
+      new:
+        characters_minimum: "（%{count}字以上）"
+      leave_blank_if_you_dont_want_to_change_it: (変更しない場合は空欄のままにしてください)
+      characters_minimum: "（%{count}字以上）"
+      we_need_your_current_password_to_confirm_your_changes: (変更を確認するには現在のパスワードが必要です)
