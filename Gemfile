@@ -4,19 +4,19 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.0'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
-gem 'sass-rails', '>= 6'
+gem 'sass-rails', '>= 6.0.0'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker', '~> 5.0'
+gem 'webpacker', '~> 5.2', '>= 5.2.1'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.7'
+gem 'jbuilder', '~> 2.10', '>= 2.10.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -35,14 +35,14 @@ end
 
 group :development do
   gem 'listen', '~> 3.3'
-  gem 'rack-mini-profiler', '~> 2.0'
+  gem 'rack-mini-profiler', '~> 2.2', '>= 2.2.1'
   gem 'spring'
   gem 'web-console', '>= 4.1.0'
 end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 3.26'
+  gem 'capybara', '>= 3.34.0'
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
